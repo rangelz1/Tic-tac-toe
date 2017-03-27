@@ -1,0 +1,54 @@
+* {
+	padding: 0px;
+	margin: 0px;
+} 
+
+body {
+	background-color: #1c1c1c;
+	text-align: center;
+} 
+
+h1 {
+	color: #1fa7e8;
+	font: 80px tahoma;
+}
+canvas {
+	background-color: #22ff91;
+	box-shadow: 10px 10px 40px #1c1c1c;
+	-webkit-transition: -webkit-transform 1s;
+	-ms-transition: -ms-transform 1s;
+	-o-transition: -o-transform 1s;
+	-moz-transition: -moz-transform 1s;
+	transition: transform 1s;
+}
+canvas:hover {
+	height: 99px;
+	opacity: 0.5;
+	width: 101px;
+}
+
+button
+{
+	border: 0;
+	margin: 0;
+	width: 300px;
+	height: 50px;
+	background-color: white;
+}
+
+#canvasDiv {
+	margin: 150px auto 10px;
+}
+
+a {
+	text-align: center;
+	text-decoration: none;
+	color: #2ff2ff;
+	text-shadow: 2px 2px 5px lightgray;
+	font: 30px tahoma;
+}
+
+button:hover {
+	
+	opacity: 0.7;
+}
